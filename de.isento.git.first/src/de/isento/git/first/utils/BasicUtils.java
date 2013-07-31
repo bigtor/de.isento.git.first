@@ -3,12 +3,12 @@ package de.isento.git.first.utils;
 /**
  * Nutzbarkeit klasse
  */
-public class HelloWorldUtils {
+public class BasicUtils {
 
 	/**
 	 * Ohne Parameter Bauer
 	 */
-	public HelloWorldUtils(){
+	public BasicUtils(){
 		
 	}
 	

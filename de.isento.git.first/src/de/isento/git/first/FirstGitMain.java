@@ -1,15 +1,18 @@
 package de.isento.git.first;
 
-import de.isento.git.first.utils.HelloWorldUtils;
+import de.isento.git.first.utils.BasicUtils;
 
 /**
  * Hauptklasse - Git Erste
  */
 public class FirstGitMain {
 
+	/**
+	 * Kommentar für main
+	 */
 	public static void main(String[] args){
 		
-		HelloWorldUtils helloWorld = new HelloWorldUtils();
+		BasicUtils helloWorld = new BasicUtils();
 		
 		System.out.println(helloWorld.sayHello("Isento"));
 	}
