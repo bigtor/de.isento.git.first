@@ -38,6 +38,6 @@ public class BasicUtils {
 	 */
 	public String getCountryAndDate(){
 		Date date = new Date();
-		return "Datum [" + date.toString() + "], Land [" + Locale.getDefault().getCountry() + "]";
+		return "Datum [" + date.toString() + "], Land [" + Locale.getDefault().getDisplayCountry() + "]";
 	}
 }
