@@ -18,7 +18,7 @@ public class FirstGitMain {
 		if (args != null && args.length == 2){
 			System.out.println(HelloWorldUtils.sayHello(args[0], args[1]));
 		} else {
-			System.out.println(HelloWorldUtils.sayHello("ISENTO GMBH", "DE"));
+			System.out.println(HelloWorldUtils.sayHello("ISENTO GMBH", "ES"));
 		}
 		
 		System.out.println("********************************************************************************");
